@@ -16,8 +16,9 @@ for i in ../input/*_1.fastq.gz;
 do 
     R1=${i}
     R2="../input/"$(basename ${i} _1.fastq.gz)"_2.fastq.gz"
-    trim_galore -j ${threads} --length 20 -o ../outputs/trimmedData --paired  ${R1} ${R2}
+    trim_galore -j ${threads} --length 20 --quality 20 -o ../outputs/trimmedData2 --paired  ${R1} ${R2}
 done
+
 
 #Fastqc on trimmed data
 for i in ../outputs/trimmedData/*_1_val_1.fq.gz 
