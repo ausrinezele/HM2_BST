@@ -25,7 +25,7 @@ abyss-pe k=64 name=SRR18214264 -C ../outputs/abyss/SRR18214264_abyss in='../../.
 # Tačiau jis taip pat turi didesnę LGA50 vertę, o tai gali rodyti geresnes suderintų fragmentų derinimo charakteristikas. Todėl rinksiuos dirbti su spades padarytų surinkimu. 
 # ERR204044. Darant su abiem programomis gauname labai panašius duomenis. Dirbant su spades gauname šiek tiek didesnę padengto genomo dalį. Todėl toliau dirbsiu su spades. 
 # SRR15131330. Darant su spades gauname didesnę genomo dalį, didesnę NGA50 vertę, 
-# bet ir didesnį nesuderinamumą ir netinkamai surinktų kontigų ilgį bei didesnį neatitikimo dažnį ir dubliavimosi santykį. Tęsim darbą su spades.
+# bet ir didesnį nesuderinamumą ir netinkamai surinktų kontigų ilgį bei didesnį neatitikimo dažnį ir dubliavimosi santykį. Tęsim darbą su abyss.
 
 ragtag.py scaffold -o ../outputs/scaffolds_ragtag ../ref/CP015498.fasta ../outputs/genomes/SRR15131330_configs.fasta
 ragtag.py scaffold -o ../outputs/scaffolds_ragtag ../ref/CP015498.fasta ../outputs/genomes/SRR18214264_configs.fasta
