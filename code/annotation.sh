@@ -53,12 +53,12 @@ done
 # 5) DNA topoisomerase IV subunit B 
 
 # Compare your phylogenetic trees.
-# Medžiai išsaugojo labai panašias savybes, ERR204044 ir SRR15131330 yra labai panašūs,
-# SRR18214264 mėginys skiriasi nuo anksčiau minėtų. 
+# Medžiai išsaugojo labai panašias savybes, ERR204044 ir SRR18214264 yra labai panašūs,
+# SRR15131330 mėginys skiriasi nuo anksčiau minėtų. 
 # Referentinis šiek tiek skiriasi nuo mėginių, bet visada išlieka pakankamai arti (Su skirtingais baltymai situacija būna truputi skirtinga)
 # Outgroup baltymai laikosi netoli tų pačių baltymų kituose mėginiuose, bet visada yra atokiausi.
 # Tik DNA primase baltymas outgroup mėginyje priklauso kitai šakai nei DNA primase kitose mėginiuose
 
 # Using all data you got, can you identify if any of you genomes are more similar to each other than to the third one (or reference genome)?
-# ERR204044 ir SRR15131330 šie mėginiai yra panašesni eni trečiasis. Tai galima matyti tiek iš trees, tiek iš ring diagramos,
-# tiek ir dotplots. Referentinis genomas taip pat yra pakankamai panašus, bet ERR204044 ir SRR15131330 išlieka panašiausi. 
+# ERR204044 ir SRR18214264 šie mėginiai yra panašesni eni trečiasis. Tai galima matyti tiek iš trees, tiek iš ring diagramos,
+# tiek ir dotplots. Referentinis genomas taip pat yra pakankamai panašus su visai, bet panašiausias į SRR15131330
